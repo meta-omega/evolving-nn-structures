@@ -1,0 +1,14 @@
+El blog de Google dice que en las redes neuronales
+que fue mutando también puso en el ADN los pesos iniciales
+de las conexiones. Ah, y también el learning rate.
+
+Dado que al evaluar que tan buena es una estructura de red
+neuronal tenemos que ponerle pesos random, a veces el fitness
+varia dada la misma estructura, por lo cual está bueno matar a
+los agentes viejos ya que puede ser que hayan sido buenos sólo en
+una evaluación específica, y queremos seleccionar genes que para
+todo set de weights iniciales funque bien.
+
+La inteligencia del experimento de Google Brain usa algo llamado
+células, que se ponen en cola para correr. Los loops están adentro
+de cada célula al final.
